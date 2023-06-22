@@ -1,0 +1,641 @@
+@charset "UTF-8";
+
+body{
+    margin-top: 0;margin-left: 0;margin-right: 0;margin-bottom: 0;
+    padding: 0;
+    font-family: ヒラギノ角ゴ ProN;
+    
+}
+
+.main-contents{
+    width: 100%;
+    text-align: center;
+}
+ 
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    top:0;
+    display: flex;
+    justify-content:space-between;
+    }
+
+header img{
+    padding: 10px;
+    width: 200px;
+    margin-left: 200px;
+    padding-top: 20px;
+    
+}
+header button{
+    display: flex;
+    list-style: none; 
+    padding-top: 29px;
+    
+ }
+
+ a{  
+    margin-left:10px;
+       
+ }
+
+ .summary-item-top{
+    background-image:url(kadai/mv.jpg) ;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    background-position: center; 
+ }
+
+ h1{
+    font-size: 70px;
+    color: #fff;
+    padding-top: 80px;
+    text-align: left;
+    margin-left: 290px;
+}
+
+
+
+.summary-item-top p{
+    margin-top: 60px;
+    color: #fff;
+    text-align: left;
+    margin-left: 290px;
+    line-height: 1.5;
+    font-size: 24px;
+    
+    
+}
+
+.top_button{
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 290px;
+}
+.top_button button{
+    text-align: center;
+   
+    font-size: 24px;
+    border: solid;
+    border-radius:10px;
+    height: 56px;
+    width: 256px;
+    transition: all 0.5s;
+}
+
+.top_button button:hover {
+    background-color: #fff;
+    color:#387a90;
+    opacity: 1.0;
+    }
+
+h2{
+    font-size: 24px;
+    color: #282728 ;
+    padding-top: 60px;
+    padding-bottom: 14px;
+    text-align: center;
+ }
+
+p{
+    font-size: 14px;
+    color: #000;
+}
+
+.summary-item-profile{
+    justify-content: center;
+ padding-bottom: 20px;
+}
+
+.summary-item-profile h2{
+
+    padding-top: 60px;
+    padding-bottom: 14px;
+
+}
+
+.summary-item-profile p{
+    font-size: 14px;
+    color: #43bcff;
+    margin-bottom: 45px;
+   
+
+}
+
+.profile{
+    width: 80%;
+    display: flex;
+    border-bottom: solid #f0f0f0 ;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}   
+
+.profile p{
+    width: 300px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.summary-item-profile h3{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+
+
+}
+
+.Office{
+    display: flex;
+}
+
+.office-name p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+
+.office-name {
+   display: block;
+   margin-bottom: 20px;
+
+}
+.tokyou-office{
+    margin-bottom: 20px;
+}  
+
+
+.summary-item-contact h4{
+    font-size: 16px;
+    border: solid;
+    border-color:#0071bc;
+    width: 134px;
+    height: 38px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 20px;
+    }
+
+.summary-item-contact{
+    background-image: url(kadai/bg_footer.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    }
+
+.summary-item-contact-web {
+    margin-left: 77px;
+    margin-top: 0px;
+    }
+    
+.summary-item-contact a{
+    font-size: 30px;
+    }
+    
+    .summary-item-contact p{
+        font-size: 14px;
+        color: black;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    
+    }
+    
+    .tokyo{
+        margin-right: 40px;
+        margin-left: 55px;
+    }
+    
+    .footer-button{
+        text-align: left;
+    }
+    
+    .footer-button button{
+        
+        color: #000;
+        font-size: 16px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        margin-top: 20px;
+        border: solid;
+        border-color:#0071bc;
+        border-radius: 10px;
+        transition: all 0.8s;
+    
+    
+    }
+    .footer-button button:hover{
+        background-color: #1b5d88;
+        color: #fff;
+        opacity: 1.0
+    
+    }
+    .web-link button{
+        border: solid;
+        text-align: center;
+        border-color:#1b5d88 ;
+        border-radius: 10px;
+        width: 352px;
+        height: 80px;
+        font-size: 30px;
+        transition: all 0.5s;
+    }
+    
+   
+    .web-link button:hover {
+        background-color: #1b5d88;
+        color: #fff;
+        opacity: 1.0;
+        }
+
+    .web-link img{
+        justify-content: right;
+    }
+    
+      .summary-item-contact-web p{
+          margin-bottom: 17px;
+          margin-top: 0px;
+      }
+
+      footer{
+          display: flex;
+          background-color: #1b5d88;
+          height: 82px;  
+          justify-content: space-between;  
+      }
+      
+
+      
+    
+      .top-button a{
+          color: #fff;
+        margin-left: auto;
+        margin-left: auto;
+      }
+
+      .top-button button{
+        border: solid;
+        border-color: #fff;
+        width: 50px;
+        height: 50px;  
+      }
+      
+      .top-button{
+          padding-top: 15px;
+          padding-left: 190px;
+
+      }
+.footer-logo
+{
+    padding-top: 30px;
+    padding-right: 190px;
+}
+
+
+    /*ここからspサイズ*/
+
+ @media screen and (max-width: 559px){
+
+body{
+        margin-top: 0;margin-left: 0;margin-right: 0!important;margin-bottom: 0;
+        min-width:300px ;              
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        background: #fff;
+    }
+
+    header img{
+        padding: 2% 2%;
+        height: 20px;
+        margin-bottom: 0;  
+
+    }
+
+    .top_button button{
+        text-align: center;
+        font-size: 16px;
+        border: solid;
+        border-radius:10px;
+        height: 50px;
+        width: 150px;
+        transition: all 0.5s;
+    }
+
+    #nav{
+        position: absolute;
+        top: 0;
+        right:-8%;
+        width: 170px;
+        height: 35vh;
+        background: #ffffff;
+        transition: .7s;  
+    }
+    #nav button{
+        padding-top: 85px;
+        display: block;
+    }
+    #nav li{
+        list-style-type: none;
+        font-size: 16px;
+        display: block;
+        margin-bottom: 10px; 
+        margin-left: 10px; 
+    }
+    #nav button li{
+        text-decoration: none;
+        color: #000000;
+        padding-bottom:5px;
+        transition:0.7s;   
+    }
+    #nav button li:hover{
+        color: #447799;
+        border-bottom: none;
+        text-align: center;
+    }
+
+    #hamburger {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        width: 50px;
+        height: 44px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .inner_line {
+        display: block;
+        position: absolute;
+        right: 10px;
+        width: 50px;
+        height: 2px;
+        background-color: #000;
+        transition: 1s;
+        border-radius: 4px;
+    }
+
+    #line1 {
+        top: 0;
+    }
+    #line2 {
+        top: 20px;
+    }
+    #line3 {
+        bottom: 0px;
+    }
+
+    .in{
+        transform: translateX(100%);
+      }
+
+.logo img{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 8%;
+    margin-bottom: auto;
+
+}
+
+.summary-item-top{
+    background-image:url(kadai/mv.jpg) ;
+    background-size: auto;
+    height: 10%;
+    color: #fff;
+    background-position: center; 
+ }
+
+ h1{
+    font-size: 36px;
+    color: #fff;
+    padding-top: 30%;
+    text-align: left;
+    margin-left: 10%;
+
+}
+
+.summary-item-top p{
+    font-size: 16px;
+    margin-top: 5%;
+    color: #fff;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 1.5;
+
+}
+
+.top_button{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
+
+   .top_button button{
+        text-align: center;
+        font-size: 16px;
+        border: solid;
+        border-radius:10px;
+        height: 50px;
+        width: 150px;
+        transition: all 0.5s;
+    }
+
+.summary-item-profile{
+justify-content: center;
+padding-bottom: 20px;
+}
+
+.summary-item-profile h2{
+
+    padding-top: 60px;
+    padding-bottom: 14px;
+
+}
+
+.summary-item-profile p{
+    font-size: 14px;
+    color: #43bcff;
+}
+
+.profile{
+    width: 100%;
+    display: flex;
+    border-bottom: solid #f0f0f0 ;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}   
+
+.profile p{
+    width: 300px;
+    color: #000;
+}
+
+
+.summary-item-profile h3{
+    width: 30%;
+    text-align: center;
+}
+
+.Office{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    padding: 5% 5% ;
+
+}
+
+.office-name {
+   display: block;
+   margin-bottom: 20px;
+   
+   
+}
+.office-name h3{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+
+
+}
+
+.Office a{
+    margin-left: auto;
+    margin-right:auto ;
+    font-size: 16px;
+
+}
+
+
+.tokyou-office{
+    margin-bottom: 20px;
+   
+}  
+
+.summary-item-contact{
+    display: block;
+    background-size: auto;
+    height: 100%;
+    padding-top: 5%;
+    width: 100%;
+
+}
+.Office a{
+    font-size: 16px;
+    margin-left: 0;
+
+}
+
+.tokyo{
+    margin-right:2.5%;
+    margin-left: 0;
+    text-align: left;
+}
+
+.osaka{
+    margin-left: 2.5%;
+    text-align: left;
+
+}
+
+
+
+.Office{
+    display: flex;
+   justify-content: center;
+   padding: 5% 5% ;
+
+}
+
+.summary-item-contact-web {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;  
+}
+
+.summary-item-contact-web p{
+ text-align: center;
+}
+
+.web-link{
+    text-align: center;
+    margin-left: 0;
+
+}
+
+
+.web-link button{
+    border: solid;
+    text-align: center;
+    border-color:#1b5d88 ;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.web-link img{
+    width: 10px;
+    height: 20px;
+
+}
+
+footer{
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.footer-logo{
+    padding-right: 5%;
+}
+
+.footer-logo img{
+    width: 80%;
+    height: auto;
+}
+
+.top-button{
+    padding-left: 5%;
+}
+
+
+  
+}
+
+
+
+      
+    
+    
+
+
+
+
+
+
+
+
+
